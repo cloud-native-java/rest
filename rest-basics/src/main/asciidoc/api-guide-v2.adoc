@@ -1,0 +1,158 @@
+= Customers API Guide v2
+Cloud Native Java;
+:doctype: book
+:toc:
+:sectanchors:
+:sectlinks:
+:toclevels: 4
+:source-highlighter: highlightjs
+
+[[overview]]
+= Overview
+
+[[overview-http-verbs]]
+== HTTP verbs
+
+The Customers API follows the standard HTTP REST conventions and supports the verbs listed below.
+
+|===
+| Verb | Usage
+
+| `GET`
+| Used to retrieve a resource
+
+| `POST`
+| Used to create a new resource
+
+| `PUT`
+| Used to update an existing resource
+
+| `DELETE`
+| Used to delete an existing resource
+|===
+
+[[overview-http-status-codes]]
+== HTTP status codes
+
+The Customer API uses the following HTTP status codes.
+
+|===
+| Status code | Usage
+
+| `200 OK`
+| The request completed successfully
+
+| `201 Created`
+| A resource has been updated or created successfully. The resource's URI is available from the response's
+`Location` header
+
+| `400 Bad Request`
+| The request was malformed. The response body will include an error providing further information
+
+| `404 Not Found`
+| The requested resource did not exist
+|===
+
+[[overview-errors]]
+== Errors
+
+Whenever an error response (status code >= 400) is returned, the body will contain a JSON object
+that describes the problem. The error object has the following structure:
+
+include::{snippets}/error-example/response-fields.adoc[]
+
+For example, a create a profile photo on a customer that does not exist results in a `400 Bad Request` response:
+
+include::{snippets}/error-example/http-response.adoc[]
+
+[[overview-hypermedia]]
+== Hypermedia
+
+The Customer API v2 uses hypermedia and resources include links to other resources in their
+responses. Responses are in http://stateless.co/hal_specification.html[Hypertext Application
+Language (HAL)] format. Links can be found benath the `_links` key. Users of the API should
+not created URIs themselves, instead they should use the above-described links to navigate
+from resource to resource.
+
+[[resources]]
+= Resources
+
+[[resources-customers]]
+== Customers
+
+The Customers resource is used to create and list customers
+
+[[resources-customers-list]]
+=== Listing customers
+
+A `GET` request will list all of the service's customers.
+
+==== Response structure
+
+include::{snippets}/customers-list-example/response-fields.adoc[]
+
+==== Example request
+
+include::{snippets}/customers-list-example/curl-request.adoc[]
+
+==== Example response
+
+include::{snippets}/customers-list-example/http-response.adoc[]
+
+
+
+[[resources-customers-create]]
+=== Creating a customer
+
+A `POST` request is used to create a customer
+
+==== Request structure
+
+include::{snippets}/customers-create-example/request-fields.adoc[]
+
+==== Example request
+
+include::{snippets}/customers-create-example/curl-request.adoc[]
+
+==== Example response
+
+include::{snippets}/customers-create-example/http-response.adoc[]
+
+
+[[resources-customer-retrieve]]
+=== Retrieve a customer
+
+A `GET` request will retrieve the details of a customer
+
+==== Response structure
+
+include::{snippets}/customer-get-example/response-fields.adoc[]
+
+==== Example request
+
+include::{snippets}/customer-get-example/curl-request.adoc[]
+
+==== Example response
+
+include::{snippets}/customer-get-example/http-response.adoc[]
+
+
+
+[[resources-customer-update]]
+=== Update a customer
+
+A `PATCH` request is used to update a customer
+
+==== Request structure
+
+include::{snippets}/customer-update-example/request-fields.adoc[]
+
+To leave an attribute of a customer unchanged, any of the above may be omitted from the request.
+
+==== Example request
+
+include::{snippets}/customer-update-example/curl-request.adoc[]
+
+==== Example response
+
+include::{snippets}/customer-update-example/http-response.adoc[]

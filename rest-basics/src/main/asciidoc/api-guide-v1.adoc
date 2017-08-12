@@ -1,0 +1,91 @@
+= Customers API Guide v1
+Cloud Native Java;
+:doctype: book
+:toc:
+:sectanchors:
+:sectlinks:
+:toclevels: 4
+:source-highlighter: highlightjs
+
+[[overview]]
+= Overview
+
+[[overview-http-verbs]]
+== HTTP verbs
+
+The Customers API follows the standard HTTP REST conventions and supports the verbs listed below.
+
+|===
+| Verb | Usage
+
+| `GET`
+| Used to retrieve a resource
+
+| `POST`
+| Used to create a new resource
+
+| `PUT`
+| Used to update an existing resource
+
+| `DELETE`
+| Used to delete an existing resource
+|===
+
+[[overview-http-status-codes]]
+== HTTP status codes
+
+The Customer API uses the following HTTP status codes.
+
+|===
+| Status code | Usage
+
+| `200 OK`
+| The request completed successfully
+
+| `201 Created`
+| A resource has been updated or created successfully. The resource's URI is available from the response's
+`Location` header
+
+| `400 Bad Request`
+| The request was malformed. The response body will include an error providing further information
+
+| `404 Not Found`
+| The requested resource did not exist
+|===
+
+[[overview-errors]]
+== Errors
+
+Whenever an error response (status code >= 400) is returned, the body will contain a JSON object
+that describes the problem. The error object has the following structure:
+
+include::{snippets}/error-example/response-fields.adoc[]
+
+For example, a create a profile photo on a customer that does not exist results in a `400 Bad Request` response:
+
+include::{snippets}/error-example/http-response.adoc[]
+
+[[resources]]
+= Resources
+
+
+
+[[resources-index]]
+== Index
+
+The index provides the entry point into the service.
+
+
+
+[[resources-index-access]]
+=== Accessing the customers index
+
+A `GET` request is used to access the index
+
+==== Example request
+
+include::{snippets}/index-example/http-request.adoc[]
+
+==== Example response
+
+include::{snippets}/index-example/http-response.adoc[]

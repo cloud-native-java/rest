@@ -1,0 +1,16 @@
+package demo;
+
+option java_package = "demo"; // <1>
+
+option java_outer_classname = "CustomerProtos"; // <2>
+
+message Customer { // <3>
+    optional int64 id = 1;
+    required string firstName = 2;
+    required string lastName = 3;
+}
+
+
+message Customers { // <4>
+    repeated Customer customer = 1;
+}

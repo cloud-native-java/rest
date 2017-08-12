@@ -1,0 +1,11 @@
+---
+applications:
+- name: rest-client
+  memory: 512M
+  instances: 1
+  host: rest-client-${random-word}
+  path: target/rest-client.jar
+  env:
+    SPRING_PROFILES_ACTIVE: cloud
+    DEBUG: "true"
+    debug: "true"

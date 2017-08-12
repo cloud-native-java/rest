@@ -1,0 +1,499 @@
+commit 5e9de5d3eb677f98f06384d9b3e67c0ef6f9da39
+Author: Josh Long <josh@joshlong.com>
+Date:   Sat May 27 10:02:23 2017 -0700
+
+    test and rest
+
+commit d05c5b8817ef3a28dc4cf170433fc3df87c637b8
+Author: Josh Long <josh@joshlong.com>
+Date:   Wed May 24 02:05:03 2017 +0200
+
+    typos
+
+commit 08a2b6274383252f5af3c1de9e4ec9515113eed7
+Author: Josh Long <josh@joshlong.com>
+Date:   Sun May 21 21:04:01 2017 +0200
+
+    typos
+
+commit f50f54bc9183b774f01cddebdbb9c0c35ca44a72
+Author: Josh Long <josh@joshlong.com>
+Date:   Sun Mar 26 02:11:01 2017 -0700
+
+    cleanup formatting
+
+commit c62a034491c0174e21658b88e019546d4893fddc
+Author: Josh Long <josh@joshlong.com>
+Date:   Sun Mar 26 02:08:51 2017 -0700
+
+    polished off the REST chapter.
+
+commit fae012fa965efbbd6d180cc779028d3e971a4066
+Author: Josh Long <josh@joshlong.com>
+Date:   Sun Mar 26 01:11:44 2017 -0700
+
+    cleaning up the REST chapter. Moved lots of small snippets out of the chapter into separate snippets. Also, cleaning up the flow of the narrative in rest.adoc.
+
+commit fb77bac011ae1e64547a1ddecca6cf5e921588e0
+Author: Josh Long <josh@joshlong.com>
+Date:   Sat Feb 18 22:45:12 2017 -0500
+
+    fixing test config
+
+commit 9046dc1cd0a61b24f19222a9a5e60221ce77e59e
+Author: Josh Long <josh@joshlong.com>
+Date:   Tue Feb 14 20:46:51 2017 -0600
+
+    travis updates
+
+commit 9ecc84e7ccf53a4c01206203d3c702dd3dee618e
+Author: Josh Long <josh@joshlong.com>
+Date:   Tue Feb 14 18:52:45 2017 -0600
+
+    rest
+
+commit 9424fb2726bbbf78475881ae9b2842ec67941ee8
+Author: Josh Long <josh@joshlong.com>
+Date:   Tue Feb 14 18:51:51 2017 -0600
+
+    updated rest
+
+commit 466dd90dcab4b79aea3763bc0aa1e60ca9359b80
+Author: Josh Long <josh@joshlong.com>
+Date:   Tue Feb 14 16:52:24 2017 -0600
+
+    formatting
+
+commit 02051faedb950992e4cc9e1bbd388af6720b1b81
+Merge: 9b2a640 5ff8060
+Author: Josh Long <josh@joshlong.com>
+Date:   Sat Aug 6 16:02:15 2016 +0100
+
+    hidden http method test
+
+commit 9b2a6402b9ec300db5f397061e60e5bc2d846115
+Author: Josh Long <josh@joshlong.com>
+Date:   Sat Aug 6 15:33:29 2016 +0100
+
+    updated test
+
+commit 4919264cb1d88bc016f20d43950e7d7879ab4f59
+Author: Josh Long <josh@joshlong.com>
+Date:   Sat Aug 6 15:26:01 2016 +0100
+
+    latest and greatest
+
+commit 48e2b6007751b3626b7a1034ff092ecd9205464c
+Author: Josh Long <josh@joshlong.com>
+Date:   Fri Aug 5 23:20:45 2016 -0700
+
+    fixed rest tests
+
+commit 5ff80608b4e22e3aa8ead57ea346e5a565d187f8
+Author: Josh Long <josh@joshlong.com>
+Date:   Fri Aug 5 15:18:17 2016 -0700
+
+    test
+
+commit d382dcecfb3637c4c1edd63f8463f86f41182c57
+Author: Josh Long <josh@joshlong.com>
+Date:   Fri Aug 5 15:14:16 2016 -0700
+
+    test
+
+commit c4fe0dbf02a9a8ebd58742efc9a4baa8c95663a1
+Author: Josh Long <josh@joshlong.com>
+Date:   Sun Jul 17 11:17:37 2016 -0700
+
+    fixed tests
+
+commit dc9ffab38c37ca71e1771ef83a575e1405051cb1
+Author: Josh Long <josh@joshlong.com>
+Date:   Tue Jan 5 01:50:10 2016 -0800
+
+    end-to-end baby
+
+commit 61c036eaf68e39d7a848332b9b5638e346e5c67e
+Author: Josh Long <josh@joshlong.com>
+Date:   Sun Jan 3 21:30:42 2016 -0500
+
+    fixing tests
+
+commit 4d0127307bb75fcc1b013f2af2d41f027eaabd97
+Author: Josh Long <josh@joshlong.com>
+Date:   Fri Jan 1 19:59:49 2016 -0500
+
+    fixed REST module
+
+commit 20ebe17f6fc35b3029ccb0a78e72f98a463aa6cb
+Author: Josh Long <josh@joshlong.com>
+Date:   Sat Dec 26 05:17:11 2015 -0800
+
+    cleanup
+
+commit 3d9023c4c07d1957f09fdd6be3c0ccb246da624c
+Author: Josh Long <josh@joshlong.com>
+Date:   Fri Dec 18 03:53:20 2015 -0500
+
+    cleanup
+
+commit e0c942735837bd8a3f333cbd3ecf6df1d3d47ee5
+Author: Josh Long <josh@joshlong.com>
+Date:   Sat Nov 28 23:50:46 2015 -0800
+
+    updated
+
+commit c8bfa22e4560d77b79330742b804bec290d99dbf
+Author: Josh Long <josh@joshlong.com>
+Date:   Tue Nov 24 21:00:58 2015 -0800
+
+    fixing builds
+
+commit 570a016061ba6c00afbcbdd8bdc0b60d5571caf9
+Author: Josh Long <josh@joshlong.com>
+Date:   Tue Nov 24 20:26:14 2015 -0800
+
+    rest
+
+commit c32388757db591f8f604d1d22ad5c21379a9c0e8
+Author: Josh Long <josh@joshlong.com>
+Date:   Wed Nov 18 10:30:54 2015 -0800
+
+    updated rest chapter to include versioning
+
+commit 6b5357a4df16eea6c0c3ed862d0e160284ba2d39
+Author: Josh Long <josh@joshlong.com>
+Date:   Sun Nov 15 18:18:35 2015 +0000
+
+    updated
+
+commit 258b4082a7a8b7163b65f1849ba6dfec5246bd73
+Author: Josh Long <josh@joshlong.com>
+Date:   Sun Nov 15 18:07:15 2015 +0000
+
+    updated
+
+commit 798c066eea5b6ec2a7f2fe8816c628e2d1851abf
+Author: Josh Long <josh@joshlong.com>
+Date:   Sun Nov 15 18:04:21 2015 +0000
+
+    updated
+
+commit 85c562f86a7acfc7b6c093c4ea9721b3eb57e725
+Author: Josh Long <josh@joshlong.com>
+Date:   Sun Nov 15 17:42:17 2015 +0000
+
+    updated
+
+commit 34b8627a86bc41cdbaf421c8a8aad941670fc639
+Author: Josh Long <josh@joshlong.com>
+Date:   Sun Nov 15 17:10:52 2015 +0000
+
+    updated
+
+commit 8cb118b8f66d61029588eb8bc2ea1dc1276502bf
+Author: Josh Long <josh@joshlong.com>
+Date:   Sun Nov 15 17:06:03 2015 +0000
+
+    updated
+
+commit 2f1a645ae0a9e34291c9f2500547ba4ec690a2ee
+Author: Josh Long <josh@joshlong.com>
+Date:   Sun Nov 15 16:27:58 2015 +0000
+
+    updated
+
+commit b15454d081d79812ebdf8e3a115c172d8d8f4dfe
+Author: Josh Long <josh@joshlong.com>
+Date:   Sun Nov 15 13:45:12 2015 +0000
+
+    updated
+
+commit 5f36e6ff8ca48c586d4fdb51f72f5879e8909954
+Author: Josh Long <josh@joshlong.com>
+Date:   Sun Nov 15 13:35:05 2015 +0000
+
+    updated
+
+commit 5831015755114810cd333c46c3d7142c7a7fa63f
+Author: Josh Long <josh@joshlong.com>
+Date:   Sun Nov 15 13:25:12 2015 +0000
+
+    updated
+
+commit 4c96153bb0accca33870b0751f051658764f6f86
+Author: Josh Long <josh@joshlong.com>
+Date:   Sun Nov 15 13:21:45 2015 +0000
+
+    updated
+
+commit 11b311ab5aaccfa6a96290dae8174b2253091e24
+Author: Josh Long <josh@joshlong.com>
+Date:   Sun Nov 15 11:26:00 2015 +0000
+
+    updated
+
+commit e77dac49ff3301ab1f46c9bb4b3140219571d801
+Author: Josh Long <josh@joshlong.com>
+Date:   Sun Nov 15 11:21:40 2015 +0000
+
+    updated
+
+commit dfed5dc0021cf8c832b0f69a7b2e91b9b28eb5e5
+Author: Josh Long <josh@joshlong.com>
+Date:   Sun Nov 15 11:20:07 2015 +0000
+
+    updated
+
+commit bcb857ef32330be317e1ff29d6a8c9a259483b20
+Author: Josh Long <josh@joshlong.com>
+Date:   Sun Nov 15 05:24:08 2015 +0000
+
+    updated
+
+commit 5c8ea039fdb5b67d4257abe3bc46447894c38351
+Author: Josh Long <josh@joshlong.com>
+Date:   Sun Nov 15 04:59:54 2015 +0000
+
+    updated
+
+commit d77f13c12433b7b6ed3f9ec2059bb24d6d397c31
+Author: Josh Long <josh@joshlong.com>
+Date:   Sun Nov 15 04:57:46 2015 +0000
+
+    updated
+
+commit b8ee05aeab8c5def2edcf6ee462387c0eb4e8926
+Author: Josh Long <josh@joshlong.com>
+Date:   Sun Nov 15 04:55:33 2015 +0000
+
+    updated
+
+commit 199e1c67f20848fb2ac1d867be076ca6f94bd2da
+Author: Josh Long <josh@joshlong.com>
+Date:   Sun Nov 15 04:52:49 2015 +0000
+
+    updated
+
+commit 6c6a6f678bedbf28461db42bf4b2793eb62830af
+Author: Josh Long <josh@joshlong.com>
+Date:   Sun Nov 15 04:51:50 2015 +0000
+
+    updated
+
+commit 2ae4a58c9b5e028b436b43b6b137bf99ea274167
+Author: Josh Long <josh@joshlong.com>
+Date:   Sun Nov 15 04:48:05 2015 +0000
+
+    updated
+
+commit 6564117db8c647668bb9de8bf4d6995010f4eedb
+Author: Josh Long <josh@joshlong.com>
+Date:   Sat Nov 14 17:59:12 2015 +0000
+
+    updating parent
+
+commit 8043e127b33bd681d2092f90a4928d8d9eaa1e41
+Author: Josh Long <josh@joshlong.com>
+Date:   Fri Nov 13 16:03:35 2015 +0100
+
+    updated REST
+
+commit 3efa4b04134b486749ce0f6b7afd99346eca9abd
+Author: Josh Long <josh@joshlong.com>
+Date:   Fri Nov 13 15:47:03 2015 +0100
+
+    updated book chapters
+
+commit 30087b84c813b618a999f37c579fcd55f57c1e28
+Merge: d1fe0fb 8f8cc6b
+Author: Josh Long <josh@joshlong.com>
+Date:   Tue Nov 10 11:40:43 2015 +0100
+
+    fixed
+
+commit d1fe0fbd48f7e7348d26cec870cae8634a7078c1
+Author: Josh Long <josh@joshlong.com>
+Date:   Mon Nov 9 08:08:52 2015 -0800
+
+    updated rest and data
+
+commit b0c2276fb1a02c431f216982a74b1905bd8bcf6a
+Author: Josh Long <josh@joshlong.com>
+Date:   Fri Nov 6 18:30:36 2015 -0800
+
+    updated docs
+
+commit 8f8cc6b6a0ba98684342d63ff89ee2a954a1cdd4
+Author: Josh Long <josh@joshlong.com>
+Date:   Thu Nov 5 16:07:02 2015 +0200
+
+    updated
+
+commit 32d43854da82fb74236e280ca2e713104e5195b3
+Author: Josh Long <josh@joshlong.com>
+Date:   Thu Nov 5 15:42:11 2015 +0200
+
+    updated
+
+commit d798ec5b3dac8d20420a3dc59f3ff0d58d86bbd1
+Author: Josh Long <josh@joshlong.com>
+Date:   Mon Nov 2 13:07:09 2015 -0800
+
+    fixing tests
+
+commit 72ac6cb12347c0525afd0ced79ea700b0b01f470
+Author: Josh Long <josh@joshlong.com>
+Date:   Tue Oct 20 04:20:21 2015 -0700
+
+    updated
+
+commit a2944d8d9e70885221fc4bccc766421e023e1ac3
+Author: Josh Long <josh@joshlong.com>
+Date:   Mon Oct 19 12:52:07 2015 +0300
+
+    updated build
+
+commit c345fb0ab57ac145a463eb74b9275f21f491a0ae
+Author: Josh Long <josh@joshlong.com>
+Date:   Mon Oct 19 12:41:34 2015 +0300
+
+    updated circle
+
+commit c1d5df93fe858a7038aff25ac6415220642e229a
+Author: Josh Long <josh@joshlong.com>
+Date:   Mon Oct 19 12:38:07 2015 +0300
+
+    updated circle
+
+commit cac3f33aa245933f1d8a7b57ca926cf7497ac210
+Author: Josh Long <josh@joshlong.com>
+Date:   Sun Oct 18 23:52:40 2015 +0300
+
+    removing Swagger
+
+commit ae575a51da1c986ad14083ff3b1e1fa612d093a9
+Author: Josh Long <josh@joshlong.com>
+Date:   Sun Oct 18 22:26:55 2015 +0300
+
+    updated REST controllers
+
+commit 8243410fdcea397f274fb2b735e3f4137fc3c477
+Author: Josh Long <josh@joshlong.com>
+Date:   Sun Oct 18 19:36:36 2015 +0300
+
+    updated customer code
+
+commit b73fc4d536b7b92cb639344a6ea6039a2b41b054
+Author: Josh Long <josh@joshlong.com>
+Date:   Sun Oct 18 16:15:56 2015 +0300
+
+    updated test for gpb
+
+commit 2ef2887e6207e29b2154f72d1cff9a19974d865e
+Author: Josh Long <josh@joshlong.com>
+Date:   Sun Oct 18 15:48:29 2015 +0300
+
+    updated
+
+commit 8c3ca553dec952e4f192905d02090dc267a7b2da
+Author: Josh Long <josh@joshlong.com>
+Date:   Sat Oct 17 16:15:44 2015 +0300
+
+    updated
+
+commit f08e922b083759a3627418fb1a0864cec490dc58
+Author: Josh Long <josh@joshlong.com>
+Date:   Sat Oct 17 14:45:43 2015 +0300
+
+    cleanup
+
+commit e52a54c356df02f73148778ef4e8ee79d60b63c0
+Author: Josh Long <josh@joshlong.com>
+Date:   Sat Oct 17 14:45:08 2015 +0300
+
+    updated atlas sh
+
+commit be048337cc43d03f133db41c0712d804338b150a
+Author: Josh Long <josh@joshlong.com>
+Date:   Thu Oct 15 00:52:21 2015 +0300
+
+    adding HAL info
+
+commit 8f4d6379366f302ccf8aa84abd5f5217ce8fea63
+Author: Josh Long <josh@joshlong.com>
+Date:   Fri Sep 11 16:57:18 2015 -0400
+
+    docs and code
+
+commit 51073da7843dbd406af359ac8524f8fba3cbdc60
+Author: Josh Long <josh@joshlong.com>
+Date:   Fri Sep 11 16:46:28 2015 +0200
+
+    polish the forklifting chapter
+
+commit 52eb15afe3e9e21f0ae1a8ad6096dd8bfac3d1f3
+Author: Josh Long <josh@joshlong.com>
+Date:   Thu Sep 10 11:53:11 2015 +0200
+
+    lots of updates to REST
+
+commit 4d624cab01ef1fd8aeea645e022292d89ca5a687
+Author: Josh Long <josh@joshlong.com>
+Date:   Wed Aug 26 09:55:57 2015 -0300
+
+    reintroduced REST
+
+commit d21fb1a2d1ed00d899e0b2011cb12db83a6cacd3
+Author: Josh Long <josh@joshlong.com>
+Date:   Wed Aug 19 12:42:52 2015 -0300
+
+    fixed failing test
+
+commit b3b8cd9445623be24879761b9c84fc9aeca10e6a
+Author: Josh Long <josh@joshlong.com>
+Date:   Wed Aug 19 12:30:08 2015 -0300
+
+    addong rest client
+
+commit bdd316849f7e25d60f105136e2460babecb305e1
+Author: Josh Long <josh@joshlong.com>
+Date:   Wed Aug 19 12:29:57 2015 -0300
+
+    basics
+
+commit 11776365d04f714c7d5b7f97f4397aee48971c4b
+Author: Josh Long <josh@joshlong.com>
+Date:   Wed Aug 19 12:29:45 2015 -0300
+
+    api discovery
+
+commit 68aa508a1a8e69705befef3985a3baf8e0427a23
+Author: Josh Long <josh@joshlong.com>
+Date:   Mon Aug 17 06:01:00 2015 -0700
+
+    clean
+
+commit bc7020497d86ceef558cf75a7a588081e3d7f5a8
+Author: Josh Long <josh@joshlong.com>
+Date:   Mon Aug 17 05:00:07 2015 -0700
+
+    updated
+
+commit 394b50eac750c198b60020b1df186924170756bb
+Author: Josh Long <josh@joshlong.com>
+Date:   Thu Aug 6 22:34:40 2015 -0700
+
+    initial commit of REST content
+
+commit dbedb5ffe481890502a06c59336ecd2342ae816c
+Author: Josh Long <josh@joshlong.com>
+Date:   Thu Aug 6 22:34:24 2015 -0700
+
+    adding .gitignore
+
+commit 830e9687abe32b9d92a8a53c5853b69b34496b76
+Author: Josh Long <starbuxman@gmail.com>
+Date:   Thu Aug 6 22:28:41 2015 -0700
+
+    Initial commit
